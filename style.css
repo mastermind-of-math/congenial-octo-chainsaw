@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.button#takeshot{
+    background-color: rgb(0, 162, 255);
+}
+
+.button#idshot{
+    background-color:purple;
+}
+
+.button#idshot:hover{
+    background-color: peru;
+}
+
+.button#takeshot:hover{
+    background-color: orange;
+}
+
+.button{
+    border-radius: 15px;
+    width:350px;
+    height:70px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+b{
+    font-size:20px
+}
+
+h1{
+    background-color: dimgray;
+    padding:30px;
+    border-radius:12px;
+}
+
+h1:hover{
+    background-color:rgb(161, 161, 161);
+}
+
+#webcam_now, #webcam_pause{
+    width:400px;
+    border-style:solid;
+    border-color: white;
+}
+
+#webcam_now{
+    height:400px;
+}
+
+#webcam_pause{
+    height:300px;
+}
